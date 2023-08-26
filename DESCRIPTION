@@ -1,0 +1,38 @@
+Package: analysisenv
+Title: R package to manage analysis environment in docker.
+Version: 0.1.0
+Authors@R: 
+    person("Ahmed", "Mohamed", , "mohamed.a@wehi.edu.au", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0001-6507-5300"))
+Description: Wrapping depedencies for analysis, which makes it easier
+    to dockerize and deploy.
+Suggests:
+    jsonlite,
+    gridExtra,
+    reshape2,
+    tidyverse,
+    bigrquery,
+    plotly,
+    UpSetR,
+    ggbiplot,
+    igraph,
+    tidygraph,
+    matrixStats,
+    Rtsne,
+    SingleCellExperiment,
+    SpatialExperiment,
+    limma,
+    ensembldb,
+    clusterProfiler,
+    scran,
+    scater,
+    uwot,
+    sctransform
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Depends: 
+    R (>= 4.1)
+LazyData: false
+BiocViews: Pathways
