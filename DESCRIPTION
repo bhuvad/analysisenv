@@ -28,7 +28,10 @@ Suggests:
     scater,
     uwot,
     sctransform,
-    pals
+    pals,
+    survminer,
+    singscore,
+    vissE
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
