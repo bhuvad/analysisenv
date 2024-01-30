@@ -27,7 +27,8 @@ Suggests:
     scran,
     scater,
     uwot,
-    sctransform
+    sctransform,
+    pals
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
